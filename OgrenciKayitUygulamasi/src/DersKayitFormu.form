@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="DersKayitFormu">
+  <grid id="27dc6" binding="Panelders" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1328942"/>
+      <font size="24"/>
+      <foreground color="-2437147"/>
+      <toolTipText value=""/>
+    </properties>
+    <border type="none" title="Ders Kayit Sayfası">
+      <font size="36"/>
+      <title-color color="-6459460"/>
+    </border>
+    <children>
+      <component id="62065" class="javax.swing.JLabel" binding="DersAdi">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9116372"/>
+          <font size="24"/>
+          <foreground color="-1554651"/>
+          <text value="Ders Adı:"/>
+        </properties>
+      </component>
+      <component id="3706a" class="javax.swing.JTextField" binding="textDersKodu">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="bd2e9" class="javax.swing.JTextField" binding="textOgretmeni">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="f786c" class="javax.swing.JTextField" binding="textDonemi">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bbd68" class="javax.swing.JTextField" binding="textDersAdi">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="34766" class="javax.swing.JLabel" binding="DersKodu">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="24"/>
+          <foreground color="-1554651"/>
+          <text value="Ders Kodu:"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="d6161" class="javax.swing.JLabel" binding="Donem">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="24"/>
+          <foreground color="-1554651"/>
+          <text value="Ders Dönemi:"/>
+        </properties>
+      </component>
+      <component id="4898f" class="javax.swing.JLabel" binding="Ogretmen">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="24"/>
+          <foreground color="-1554651"/>
+          <text value="Ders öğretmeni:"/>
+        </properties>
+      </component>
+      <component id="d843c" class="javax.swing.JButton" binding="KaydetDers">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3841304"/>
+          <font size="20"/>
+          <foreground color="-394241"/>
+          <text value="Ders Kaydet"/>
+          <toolTipText value="Dersi Kaydet"/>
+        </properties>
+      </component>
+      <component id="efed5" class="javax.swing.JTextField" binding="textDersBolum">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e4b20" class="javax.swing.JLabel" binding="DersBolum">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="24"/>
+          <foreground color="-1554651"/>
+          <text value="Verilecek Ders Bölümü :"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
